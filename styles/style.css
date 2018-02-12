@@ -35,8 +35,13 @@ body {
 /* Buttons */
 .btn {
 	border-radius: 0.15em;
+	}
+.btn-primary {
+	background: #ff0000;
 }
-
+.nav-link {
+    border: 1px solid #4d1ad8;
+}
 /* Alert */
 .alert {
 	position: relative;
@@ -120,8 +125,24 @@ body {
 }
 
 @media screen and (min-width: 992px) {
-
 	.navbar-brand > img {
 	   max-height: 80px;
 	}
+}
+.container-box{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.item1{
+	border: 1px solid #000000;
+	width: 150PX;
+	height: 150px;
+	font-size: 24px;
+	font-weight: bold;
+	background: rgb(206, 205, 205);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
